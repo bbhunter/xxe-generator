@@ -1,6 +1,10 @@
-# xxe-generator
+**Go here to see it in action**: [https://xxe.warder.io/](https://xxe.warder.io/).
 
-The source code is uncomplicated JavaScript, HTML and CSS code. Usage of massive front-end frameworks would be a waste of resources here (IMO). 
+# Code
+
+The source code is uncomplicated JavaScript, HTML and CSS code.
+
+In my opinion, the usage of massive front-end frameworks would be a waste of resources here.
 
 ## Contribute Payloads
 
