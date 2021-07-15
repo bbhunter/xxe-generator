@@ -12,7 +12,6 @@
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239296ac' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
     code {
-      width: 100%;
       border: 1px dashed black;
     }
     code:hover {
@@ -38,21 +37,19 @@
     <h1 id="success" style="color:green;position:absolute;top: 50%;left:0; width: 100%;text-align:center;display:none;"><span style="background-color:#e7f0ff; padding: 0.5rem; border-radius:0.4rem;">Copied to clipboard!</span></h1>
     <div style="background:#fff; width: 50%; margin:0 auto;padding: 1rem;border-radius: 0.5rem;">
       <h1 style="text-align:center;">XXE Generator</h1>
-      <div style="width:100%;display:flex;justify-content:center;">
-        <div style="width:50%;display:flex;flex-direction:column;row-gap:0.25rem;">
-          <h2 style="text-align: center;"><a target="_blank" href="https://github.com/warder-io/xxe-generator">Contribute</a></h2>
-          <label><b>SSRF</b></label><br/>
-          <input id="inputurl" style="width: 100%;padding: 1rem;" type="text" placeholder="http://x.burpcollaborator.net" />
-          <hr style="width:100%;"/>
-          <div id="generated" style="display:flex;flex-direction:column;row-gap:1rem;">
-          </div>
-          <hr style="width:100%;"/>
-          <label><b>Inspiration / Sources</b></label><br/>
-          <ul>
-            <li><a target="_blank" href="https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing">https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing</a></li>
-            <li><a target="_blank" href="https://gist.github.com/staaldraad/01415b990939494879b4">https://gist.github.com/staaldraad/01415b990939494879b4</a></li>
-          </ul>
+      <div style="width:100%;display:flex;flex-direction:column;row-gap:0.25rem;">
+        <h2 style="text-align: center;"><a target="_blank" href="https://github.com/warder-io/xxe-generator">Contribute</a></h2>
+        <label><b>SSRF</b></label><br/>
+        <input id="inputurl" style="padding: 1rem;" type="text" placeholder="http://x.burpcollaborator.net" />
+        <hr style="width:100%;"/>
+        <div id="generated" style="display:flex;flex-direction:column;row-gap:1rem;">
         </div>
+        <hr style="width:100%;"/>
+        <label><b>Inspiration / Sources</b></label><br/>
+        <ul>
+          <li><a target="_blank" href="https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing">https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing</a></li>
+          <li><a target="_blank" href="https://gist.github.com/staaldraad/01415b990939494879b4">https://gist.github.com/staaldraad/01415b990939494879b4</a></li>
+        </ul>
       </div>
     </div>
     <script>
