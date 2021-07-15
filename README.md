@@ -1,6 +1,6 @@
 # xxe-generator
 
-The source code is uncomplicated JavaScript, HTML and CSS code. Usage of massive front-end frameworks is a waste of resources IMO. 
+The source code is uncomplicated JavaScript, HTML and CSS code. Usage of massive front-end frameworks would be a waste of resources here (IMO). 
 
 ## Contribute Payloads
 
